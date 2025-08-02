@@ -1,0 +1,58 @@
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 6px solid black;
+  border-radius: 50%;
+  margin: 50px auto;
+  background: white;
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom;
+  transform: rotate(0deg);
+}
+
+.hour {
+  width: 6px;
+  height: 50px;
+  background: black;
+}
+
+.minute {
+  width: 4px;
+  height: 70px;
+  background: gray;
+}
+
+.second {
+  width: 2px;
+  height: 90px;
+  background: red;
+}
+
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                    url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?cs=srgb&dl=pexels-pixabay-41949.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; 
+  font-family: 'Open Sans', sans-serif; 
+}
+.para{color: azure;margin-top: 40px;font-size: 20px;font-family: Georgia, 'Times New Roman', Times, serif;}
+.tipo{color: aliceblue; text-align: center; font-size: 50px;margin-top: 10px;font-family:Georgia, 'Times New Roman', Times, serif;}
+
+.navbar-brand{margin-left: 20px;}
+
+.p-5.mb-4.bg-light.rounded-3 {
+  background-color: white;
+  background-image: url(images/ba.jpeg);
+  color: rgb(184, 175, 175);
+  border-radius: 0.5rem;
+}
